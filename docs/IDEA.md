@@ -2,9 +2,9 @@
 # SIM-RACING APP
 
 Create a web application that simulates a 3D real-tme training platform for sim racing and records metrics for the physics of every capex and sector of the track in the backend.
-The web application allows to configure weather conditions described in weather conditions data and the web app accepts voice recognition by the user to move the car, speed up the car, press the pedal and increase gasoline.
-1. Circuits:  
-    Use Monza circuit and Monaco grand prix. and other circuit parameters defined by you.
+The web application allows to configure weather conditions described in weather conditions data and the web app accepts voice recognition of the user to increase/decrease velocity, speed up the car, press the break.
+1. Circuits:  Use Monza circuit and Monaco grand prix.
+    Record circuit parameters defined by you.
 2. Cars metrics using cars: Maclaren and Porsche.
     
     interface TelemetryFrame {
@@ -48,5 +48,5 @@ The AI analysis uses Gemini 3.0 with specialized racing coach prompt and gives t
 - AI: Gemini 3.0
 - Icons: lucide react.
 
-## Tools
+## Technology
 - Python 3.10
